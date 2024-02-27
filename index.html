@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática 14 - GitHub Pages</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header class="container-fluid p-3 bg-success">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand text-danger fw-bold" href="#">Tudo Sobre Bootstrap</a>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-danger fw-bolder" aria-current="page" href="#intro">Introdução</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-danger fw-bolder" href="#containers">Containers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-danger fw-bolder" href="#bonus">Conteúdo Bônus</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section id="intro" class="container-fluid m-2">
+        <h2 class="text-success"> Introdução </h2>
+        <div class="p-2 fs-5">
+            <p>
+                Os containers são um dos fundamentos do Bootstrap. Eles são essencialmente caixas utilizadas para 
+                organizar conteúdo em uma página. O Bootstrap fornece três classes de containers, que são semelhantes 
+                às classes de grid de colunas. Essas classes ajudam a posicionar e organizar os elementos na página. 
+                As três classes variam em sua capacidade de definir larguras máximas.
+            </p>
+            <p >
+                A classe .container define uma largura máxima de 1200px, a classe .container-fluid define uma largura máxima de 100%, e a classe 
+               .container-{breakpoint} define uma largura máxima de 1200px até o ponto de interrupção especificado.  
+               Depois de entender como essas classes de container operam, elas podem ser usadas em um projeto para dar 
+               forma a diferentes seções, como cabeçalhos e rodapés. As classes de container podem substituir estilos 
+               personalizados, minimizando a necessidade de criar CSS personalizado.
+           </p>
+        </div>
+    </section>
+    <section id="containers" class="container-fluid m-2">
+        <h3 class=""> Tipos de classes de containers </h3>
+        <div class="container fs-5 bg-light border border-danger">
+            <p>
+                Containers, em sua essência, são caixas que servem para organizar o conteúdo em uma página. 
+                O Bootstrap proporciona três tipos de classes de containers, semelhantes às classes de grids de 
+                colunas, que auxiliam no posicionamento e organização dos elementos na página.
+            </p>
+            <ol>
+                <li>A classe “container”, que define uma largura máxima para a caixa.</li>
+                <li>A classe “container-{breakpoint}”, que define uma largura máxima até o limite desse breakpoint.</li>
+                <li>A classe “container-fluid”, que estabelece uma largura de 100% para qualquer tamanho de tela.</li>
+            </ol>
+            <p>
+                Os breakpoints, mencionados no sistema de grade, são utilizados para ajustar o comportamento em 
+                diferentes tamanhos de dispositivos. Por exemplo, utilizando a classe container “SM” (para small devices), 
+                a largura máxima será de 540 pixels para dispositivos de tamanho igual ou maior que 576 pixels, e uma largura 
+                máxima de 720 pixels para dispositivos iguais ou maiores que 768 pixels, e assim por diante.
+            </p>
+        </div>
+    </section>
+    <section id="bonus" class="container-fluid m-2">
+        <h2 class="text-success"> Conteúdo Bônus </h2>
+        <p class="p-2 fs-5">
+            Se você deseja melhorar ainda mais suas habilidades e conhecimento sobre o Bootstrap, este conteúdo 
+            bônus vai te ajudar bastante. Procure na w3schools por Bootstrap 5. A w3schools é conhecida por ser 
+            referência em html, css, js, php, sql e também é quando o assunto é bootstrap. O site explica o 
+            framework de maneira clara e compreensível, tornando-o um recurso ideal tanto para iniciantes quanto 
+            para programadores experientes que desejam se aprofundar no Bootstrap.
+        </p>
+    </section>
+    <section class="container-fluid text-center">
+        <a href="https://www.w3schools.com/bootstrap5/bootstrap_get_started.php" 
+        type="button" target="_blank" class="btn btn-danger fs-5 mb-4">Saiba mais</a>
+    </section>
+    <footer class="container-fluid p-2 bg-success text-center fw-semibold">
+        <p> &copy Copyright 2024 by Nathany Morais</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
